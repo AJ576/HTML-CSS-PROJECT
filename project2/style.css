@@ -1,0 +1,221 @@
+*
+{
+    background-color: black;
+}
+.one{
+    display: flex;
+    background: black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.one h4
+{
+    color:aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+     flex:4;
+}
+.one h6
+{
+    color:aliceblue;
+    font-family: monospace;
+    font-size: 15px;
+    flex:1;
+   
+    
+}
+.mid
+{
+    display: flex;
+    justify-content: center;
+    gap = 30px;
+    background: black;
+}
+.mid h1
+{
+    color: antiquewhite;
+        
+}
+
+.two{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap : 70px;
+    background: black;
+    padding: 30px;
+}
+
+
+.two p
+{
+    color: aquamarine;
+    font-family: monospace;
+    font-size: 20px;
+    padding = 15px;
+    flex:1;
+}
+.two button
+{
+    font-family: monospace;
+    border-color: aqua;
+    background-color:darkslateblue;
+    padding: 20px;
+    font-size: 55px;
+    height: 100px;
+    justify-content: center;
+    width: auto;
+    border-radius: 12px;
+    text-decoration: none;
+    gap:10px
+    flex:10;
+}
+.two a
+{
+    font-family: monospace;
+    background-color:darkslateblue;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.two img{
+    height: auto;
+    width: 500px;
+    align-self: auto;
+    padding = 15px;
+    flex:1;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    background: darkslategray;
+    
+}
+.title h1
+{
+    flex:1;
+   
+    background-color: darkslategray;
+    background: darkslategray;
+    text-align: center;
+    color:antiquewhite;
+}
+
+.three{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: darkslategray;
+    background: darkslategray;
+    
+    
+}
+.three img
+{
+    background-color: darkslategray;
+    background: darkslategray;
+    height:auto;
+    width:60px;
+    flex:1;
+    padding: 10px;
+}
+.links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: darkslategray;
+    background: darkslategray;
+}
+.links a
+{
+    height:auto;
+    width:50px;
+    flex:1;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color:aliceblue;
+    text-align: center;
+    color: aquamarine;
+    background-color: darkslategray;
+    background: darkslategray;
+}
+.quote
+{
+    display: flex;
+    height: 100px;
+    background-color: black; 
+    flex-direction: column;
+}
+.quote p
+{
+    color: aquamarine;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    flex:1;
+}
+.footer
+{
+    display: flex;
+    background-color: darkslateblue;
+    margin: 30px;
+    justify-content: space-between;
+    border-radius: 12px;
+   
+}
+.foot
+{
+    flex:1;
+    background-color: darkslateblue;
+    color:darkslateblue;
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+    
+    
+    
+}
+
+.text p
+{
+    color: aquamarine;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    background-color: darkslateblue;
+    border-radius:12px;
+}
+.butto
+{
+    
+    background-color:darkslateblue;
+    
+    justify-content: center;
+
+    
+    
+}
+.butto button
+{
+    font-family: monospace;
+    color:aqua;
+    background-color:darkslateblue;
+    font-size: 20px;
+    text-decoration: none;
+    height: auto;
+    width = 50px;
+    border-radius:12px;
+}
+
+
